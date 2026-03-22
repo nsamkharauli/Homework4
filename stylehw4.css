@@ -1,0 +1,111 @@
+
+body{
+  font-family: sans-serif;
+}
+.container{
+ width: 530px ;
+ height: 570px;
+ background-color: rgb(237, 237, 237);
+ margin: 30px auto;
+ border-radius: 10px;
+}
+
+h4{
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 20px;
+  padding: 13px;
+  font-size: 15px;
+  margin: 0;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 30px;
+}
+
+button{
+  display: block;
+  background-color: rgb(234, 71, 98);
+  color: white;
+  border: 2px solid rgb(234, 71, 98);
+  border-radius: 3px;
+  padding: 8px 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  font-size: 11px;
+}
+
+label{
+  margin: 9px 25px;
+  font-size: 13px;
+  display: inline-block;
+  width: 90px;
+}
+
+form{
+  max-width: 450px;
+  margin: auto;
+}
+
+.row{
+  margin-top: 25px;
+}
+input, select{
+  border: none;
+  border-radius: 3px;
+  vertical-align: middle;
+  height: 29px;
+  background-color: rgb(209, 208, 208);
+  /* padding: 1px; */
+  box-sizing: border-box;
+}
+.full{
+  width: 275px;
+}
+.name, .surnamme{
+  width: 120px; 
+  margin-right: 1px;
+}
+.numbcode{
+  width: 60px;
+  margin-right: 10px;
+}
+
+.numberfull{
+  width: 202px;
+}
+
+p{
+ margin: 40px 0px 0px 26px;
+ font-size: 13px;
+}
+
+.small{
+  font-size: 10px;
+  color: grey;
+}
+span{
+  margin-left: 74px;
+}
+.number{ 
+  margin-left: 22px;
+}
+
+.ten{
+margin-top: 2px;
+}
+
+.radio-line{
+  margin: 0px 2px 0px 22px;
+  accent-color: green;
+}
+
+
+:placeholder-shown { 
+  padding-left: 15px;
+}
+select{ 
+  padding-left: 10px;
+  color: grey;
+  font-size: 13px ;
+}
